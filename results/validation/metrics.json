@@ -1,0 +1,97 @@
+{
+  "evaluation_split": "data/otoscopy/val",
+  "number_of_images": 602,
+  "accuracy": 1.0,
+  "macro_sensitivity_recall": 1.0,
+  "macro_specificity": 1.0,
+  "macro_precision": 1.0,
+  "macro_f1_score": 1.0,
+  "macro_auc_ovr": 1.0,
+  "classes": [
+    "Acute_Otitis_Media",
+    "Cerumen_Impaction",
+    "Chronic_Otitis_Media",
+    "Myringosclerosis",
+    "Normal"
+  ],
+  "per_class": {
+    "Acute_Otitis_Media": {
+      "support": 120,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Cerumen_Impaction": {
+      "support": 120,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Chronic_Otitis_Media": {
+      "support": 120,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Myringosclerosis": {
+      "support": 121,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Normal": {
+      "support": 121,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    }
+  },
+  "confusion_matrix_rows_actual_columns_predicted": [
+    [
+      120,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      120,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      120,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      121,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      121
+    ]
+  ],
+  "note": "Validation metrics only; this split was used to select the best checkpoint and is not an independent test estimate."
+}

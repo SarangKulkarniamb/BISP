@@ -1,0 +1,6 @@
+actual\predicted,Acute_Otitis_Media,Cerumen_Impaction,Chronic_Otitis_Media,Myringosclerosis,Normal
+Acute_Otitis_Media,120,0,0,0,0
+Cerumen_Impaction,0,120,0,0,0
+Chronic_Otitis_Media,0,0,120,0,0
+Myringosclerosis,0,0,0,121,0
+Normal,0,0,0,0,121

@@ -1,0 +1,97 @@
+{
+  "evaluation_split": "data/otoscopy_final/test",
+  "number_of_images": 453,
+  "accuracy": 0.9977924944812362,
+  "macro_sensitivity_recall": 0.9978021978021978,
+  "macro_specificity": 0.9994475138121548,
+  "macro_precision": 0.9978260869565216,
+  "macro_f1_score": 0.9978021314494459,
+  "macro_auc_ovr": 0.999987857446421,
+  "classes": [
+    "Acute_Otitis_Media",
+    "Cerumen_Impaction",
+    "Chronic_Otitis_Media",
+    "Myringosclerosis",
+    "Normal"
+  ],
+  "per_class": {
+    "Acute_Otitis_Media": {
+      "support": 91,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Cerumen_Impaction": {
+      "support": 90,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Chronic_Otitis_Media": {
+      "support": 90,
+      "sensitivity_recall": 1.0,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "auc_ovr": 1.0
+    },
+    "Myringosclerosis": {
+      "support": 91,
+      "sensitivity_recall": 1.0,
+      "specificity": 0.9972375690607734,
+      "precision": 0.9891304347826086,
+      "f1_score": 0.994535519125683,
+      "auc_ovr": 0.9999696436160525
+    },
+    "Normal": {
+      "support": 91,
+      "sensitivity_recall": 0.989010989010989,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "f1_score": 0.994475138121547,
+      "auc_ovr": 0.9999696436160525
+    }
+  },
+  "confusion_matrix_rows_actual_columns_predicted": [
+    [
+      91,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      90,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      90,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      91,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      90
+    ]
+  ],
+  "note": "Held-out test split; it was not used for model fitting or checkpoint selection. The split is image-level because patient identifiers are unavailable."
+}
